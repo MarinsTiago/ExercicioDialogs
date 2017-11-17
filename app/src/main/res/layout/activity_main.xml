@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tads.trabalhodialogs.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/cinza"
+    >
+
+    <TextView
+        android:id="@+id/hd"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mostrarHora"
+            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="170px"
+            android:layout_marginTop="90px"
+            android:text="@string/hora"
+            />
+
+        <Button
+            android:id="@+id/data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mostrarData"
+            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="150px"
+            android:layout_marginTop="90px"
+            android:text="@string/data" />
+
+    </LinearLayout>
+
+</LinearLayout>

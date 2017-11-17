@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TrabalhoDialogs</string>
+    <string name="hora">definir hora</string>
+    <string name="data">definir data</string>
+</resources>
